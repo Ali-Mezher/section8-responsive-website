@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(40, 37, 34);
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(28, 25, 25);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 30px;
+
+
+}
+
+nav h3 {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
