@@ -36,7 +36,6 @@ a {
 
 #main-header li {
     margin: 0 1rem;
-
 }
 
 #main-header nav a {
@@ -109,7 +108,15 @@ nav ul li a {
     background-color: rgb(221, 134, 34);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
+    #text-item h1 {
+        font-size: 1.5rem;
+    }
+
+    #main-header li {
+        display: none;
+    }
+
     #latest-products ul {
         grid-template-columns: 100%;
 
